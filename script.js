@@ -39,7 +39,7 @@ $("#start").click(function(){
     
     function breakTimer(){
     $("#timeType").html("Break Time: ");
-    $("#breakNum").show();
+    $("#breakNum").hide();
          $("#timeType").show();
       $('.box').show();
     breakTime -=1;
